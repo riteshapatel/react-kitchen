@@ -5,9 +5,11 @@ allows the user to create and remove recipes.
 App uses,
 
 1. React (duh!)
-2. Flux (yeah, next app is with Redux!)
-3. Bootstrap CSS
-4. Express JS API
+2. React Router
+3. Flux (yeah, next app is with Redux!)
+4. Webpack
+5. Bootstrap CSS
+6. Express JS API
 
 Feel free to send a note if you find something that doesn't work. All ears!
 
