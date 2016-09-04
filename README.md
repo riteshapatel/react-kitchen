@@ -10,6 +10,7 @@ App uses,
 4. Webpack
 5. Bootstrap CSS
 6. Express JS API
+7. axios
 
 Feel free to send a note if you find something that doesn't work. All ears!
 
