@@ -17,10 +17,10 @@ class KitchenStore extends EventEmitter {
 	constructor () {
 		super();
 		this.data = [];
-		this.fetchAll(function (data) {
+		this.fetchAll((data) => {
 			this.data = data;
 			this.emit('change');
-		}.bind(this));
+		});
 	}
 
 	/**
