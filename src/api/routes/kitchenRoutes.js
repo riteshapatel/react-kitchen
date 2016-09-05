@@ -7,7 +7,7 @@
 "use strict";
 
 const _ = require('lodash');
-let logger = require('../logger');
+const logger = require('../logger');
 
 // sample data (it's a JSON object. DB / Local - your call)
 let data = {
@@ -34,7 +34,7 @@ let data = {
  */
 const listRecipes = (req, res) => {
 	logger.log('info', 'Listing recipes')
-	res.send({ status : 'success', data : data });
+	res.send ({ status : 'success', data : data });
 }
 
 /**
@@ -51,7 +51,7 @@ const addRecipe = (req, res) => {
 	};
 	data.Recipes.push(recipe);
 	logger.log('info', 'New recipe added');
-	res.send({ status : 'success', data : data });
+	res.send ({ status : 'success', data : data });
 }
 
 /**

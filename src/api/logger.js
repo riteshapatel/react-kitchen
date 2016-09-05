@@ -5,10 +5,10 @@
  * @version 1.0.0
  */
 'use strict';
-let path = require('path');
+const path = require('path');
 
-let winston = require('winston');
-let config = {
+const winston = require('winston');
+const config = {
 	levels:{
 		silly:0,
 		verbose:1,
@@ -29,7 +29,7 @@ let config = {
 	}
 };
 
-var logger = new(winston.Logger)({
+let logger = new (winston.Logger)({
 	transports:[
 		new (winston.transports.Console)({
 			colorize:true
