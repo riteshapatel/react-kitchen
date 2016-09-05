@@ -12,6 +12,15 @@ App uses,
 6. Express JS API
 7. axios
 
+## Kickstart React Kitchen
+
+1. Install webpack
+2. Clone app
+3. Run "npm install"
+4. At terminal / command prompt "npm run api"
+5. At terminal / command prompt "npm run dev"
+6. Hit http://localhost:8080/
+
 Feel free to send a note if you find something that doesn't work. All ears!
 
 Enjoy!
