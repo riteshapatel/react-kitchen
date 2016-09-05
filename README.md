@@ -12,7 +12,7 @@ App uses,
 6. Express JS API
 7. axios
 
-## Kickstart React Kitchen
+## kickstart react-kitchen
 
 1. Install webpack
 2. Clone app
